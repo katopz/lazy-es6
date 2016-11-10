@@ -1,6 +1,12 @@
 # lazy-es6
 Lazy copy and paste es6
 
+### Date
+```js
+// timestamp, equal to new Date().valueOf()
++new Date()
+```
+
 ### Delay
 ```js
 // Will delay for (ms) millisecond and return promise
