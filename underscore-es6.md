@@ -108,7 +108,7 @@
 
 * ES2016
     
-        rray.includes(element)
+        array.includes(element)
     
 
 #### Convert an array-like object to array [#][25]
