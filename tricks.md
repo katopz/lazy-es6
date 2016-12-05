@@ -3,7 +3,7 @@
 ### Destructuring
 ```js
 // can destructure arrays
-const [a, b] = [1,2]; // a = 1, b = 2
+const [a, b] = [1, 2]; // a = 1, b = 2
 
 // can destructure object keys
 const { a } = { a: 3 }; // a = 3
@@ -126,8 +126,8 @@ describe('timeUtils.isWithinPeriod', () => {
 ```
 ### Object.assign
 ```js
-const original = [0,1,2,3];
-const copy = Object.assign([], original, { 2: 42 }); // [0,1,42,3]
+const original = [0, 1, 2, 3];
+const copy = Object.assign([], original, { 2: 42 }); // [0, 1, 42, 3]
 
 console.log(original);
 // [ 0, 1, 2, 3 ]
