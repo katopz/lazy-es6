@@ -1,6 +1,9 @@
 # lazy-es6
 Lazy copy and paste es6
 
+### Cheats sheet
+- https://github.com/DrkSephy/es6-cheatsheet
+
 ### Date
 ```js
 // timestamp, equal to new Date().valueOf()
