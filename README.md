@@ -1,6 +1,9 @@
 # lazy-es6
 Lazy copy and paste es6
 
+### Array
+- https://hackernoon.com/what-you-should-know-about-es6-arrays-34b2a166aaed#.hhf1jx9w5
+
 ### Cheats sheet
 - https://github.com/DrkSephy/es6-cheatsheet
 
