@@ -21,3 +21,11 @@ var delay = ms => new Promise(resolve => setTimeout(resolve, ms));
 // Example : Delay for 1000ms and log 'foo'
 delay(1000).then(() => console.log('foo'));
 ```
+### Required text
+```js
+// Will enabled require txt
+require.extensions['.txt'] = (module, filename) => module.exports = require('fs').readFileSync(filename, 'utf8')
+
+// Example : Load `foo.txt` as String
+const foo = require('foo.txt')
+```
