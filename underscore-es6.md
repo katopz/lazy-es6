@@ -383,6 +383,18 @@
 
 #### Template [#][49]
 
+* Underscore
+
+        var greeting = _.template("hello <%= name %>");
+        greeting({ name: 'moe' });
+
+* ES2015
+
+        const greeting = ({ name }) => `hello ${name}`;
+        greeting({ name: 'moe' });
+
+- - - 
+
 Did you find a bug? Do you have more examples of things that previously might have required an utility library, but not anymore? [Send us a pull request on GitHub!][50]
 
 [Discuss this post on Hacker News.][51]
